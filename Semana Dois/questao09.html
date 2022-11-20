@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--LINK DE REFERENCIA AO CSS DO BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Questão 09</title>
+</head>
+
+<body>
+  <div class="container">
+    <p><a href="index.html">Voltar ao Índice</a></p>
+    <h1 class="display-2">Questão 09</h1>
+    <p class="lead">Usando classes do Bootstrap 5, complemente o resultado da questão anterior adicionando um menu
+      fictítio contendo 6 itens com títulos "Artigo 1" ... "Artigo 6". Esse menu deve ser mostrado na primeira região,
+      logo abaixo do título "Meu Blog". Em resoluções até o breakpoint LG, os itens devem ficar um embaixo do outro,
+      alinhados à esquerda, enquanto no breakpoint LG ou superior, devem ficar um ao lado do outro, centralizado na
+      região.</p>
+    <hr>
+  </div>
+  <!-- FAZER AQUI -->
+  <div class="container-fluid container-lg">
+    <div class="row">
+      <div class="border rounded-1 border-danger bg-danger p-2 bg-opacity-10 text-center text-lg-start col-lg-3">
+        <h2 class="mb-3 mb-lg-5">Meu Blog</h2>
+
+        <ul class="list-unstyled d-inline-flex d-lg-block fs-5 fw-light justify-content-evenly">
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 1</a></li>
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 2</a></li>
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 3</a></li>
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 4</a></li>
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 5</a></li>
+          <li class="me-3 mb-lg-2"><a href="#" class="text-decoration-none text-reset">Artigo 6</a></li>
+        </ul>
+      </div>
+
+      <article class="col-lg-9 col-md-12 col-sm-12 border rounded-1 border-danger bg-danger p-2 bg-opacity-10">
+        <h6 class="text-danger text-uppercase"> Meu artigo</h6>
+        <p class="lead text-uppercase">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, velit saepe qui voluptatum repudiandae
+          tempora?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, modi nesciunt. Cumque similique porro esse
+          voluptas quae! Eos, nostrum excepturi perspiciatis nam minus deleniti pariatur!
+        </p>
+        <p class="lead text-uppercase">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure corporis reiciendis aut fugiat recusandae
+          itaque rem alias a inventore laboriosam dicta quos facilis magnam earum ullam placeat, hic labore!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa eos maiores odit magnam corporis?
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, velit saepe qui voluptatum repudiandae
+          tempora?
+        </p>
+        <p class="lead text-uppercase"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, modi
+          nesciunt. Cumque similique porro esse
+          voluptas quae! Eos, nostrum excepturi perspiciatis nam minus deleniti pariatur!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure corporis reiciendis aut fugiat recusandae
+          itaque rem alias a inventore laboriosam dicta quos facilis magnam earum ullam placeat, hic labore!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa eos maiores odit magnam corporis?
+        </p>
+      </article>
+
+
+      <!-- LINK DE REFERENCIA AO JS DO BOOTSTRAP -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
